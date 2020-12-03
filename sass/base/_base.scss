@@ -1,0 +1,40 @@
+// Partial Sass file
+// This file will contain basic resetting
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html { 
+    // This defines what 1 rem is?
+    font-size: 62.5%;  /* in % because if reader wants to change the size so it will change accordingly */
+
+    @include respond(tab-land) {  // width < 900px
+        font-size: 56.25%;  // 1 rem = 9 px
+    }
+    
+    @include respond(tab-port) {  // width < 600px
+        font-size: 50%;  // 1 rem = 8 px
+    }
+
+    @include respond(big-desktop) {
+        font-size: 75%;  // 1 rem = 12 px
+    }
+}
+
+body{
+    box-sizing: border-box;
+    padding: 3rem;
+
+    @include respond(tab-port) { 
+        padding: 0;
+    }
+}
+
+::selection {
+    background-color: $color-primary;
+    color: $color-white;
+}
