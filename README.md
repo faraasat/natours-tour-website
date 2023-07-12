@@ -18,13 +18,15 @@ Natours Tour Static Website represents the perfect synergy between creativity an
 
 ---
 
-### ⚙ Project Execution:
+### ⚙ Dockerized Execution:
 
 To run project using Docker run the following commands:
 
-bash```docker build -t <tag-name> .```
+```bash
+  docker build -t <tag-name> .
 
-bash```docker run -p 8080:8080 <tag-name>```
+  docker run -p 8080:8080 <tag-name>
+```
 
 ---
 
@@ -34,6 +36,8 @@ bash```docker run -p 8080:8080 <tag-name>```
 ![HTML](https://img.shields.io/badge/-HTML-333333?style=for-the-badge&logo=Html5)&nbsp;&nbsp;&nbsp;&nbsp;
 ![CSS](https://img.shields.io/badge/-CSS-333333?style=for-the-badge&logo=CSS3)&nbsp;&nbsp;&nbsp;&nbsp;
 ![SCSS](https://img.shields.io/badge/-SCSS-333333?style=for-the-badge&logo=SASS)&nbsp;&nbsp;&nbsp;&nbsp;
+![Docker](https://img.shields.io/badge/-Docker-333333?style=for-the-badge&logo=docker)&nbsp;&nbsp;&nbsp;&nbsp;
+![GitHubActions](https://img.shields.io/badge/-GitHub%20Actions-333333?style=for-the-badge&logo=github-actions)&nbsp;&nbsp;&nbsp;&nbsp;
 
 ---
 
