@@ -1,4 +1,3 @@
-
 # Natours Tour Website.
 
 #### Immerse yourself in a captivating virtual journey as you navigate through this meticulously designed code repository.
@@ -16,6 +15,16 @@ Experience the project in action by visiting our live demo: [Natours Tour Static
 Welcome to the mesmerizing world of Natours Tour Static Website! This project showcases an elegant and attractive user interface, captivating visitors with its visually stunning design and seamless user experience. It is built using a powerful combination of HTML, CSS, and SCSS, ensuring a solid foundation and allowing for a flexible and maintainable codebase.
 
 Natours Tour Static Website represents the perfect synergy between creativity and technology. Every element is carefully crafted to provide an immersive and engaging journey for the users. From the vibrant color palette to the meticulously placed design elements, every detail has been meticulously considered to create an unforgettable experience.
+
+---
+
+### ⚙ Project Execution:
+
+To run project using Docker run the following commands:
+
+bash```docker build -t <tag-name> .```
+
+bash```docker run -p 8080:8080 <tag-name>```
 
 ---
 
